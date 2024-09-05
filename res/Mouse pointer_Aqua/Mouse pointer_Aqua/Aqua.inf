@@ -1,0 +1,59 @@
+; Blackcomb
+; Win 9x/NT Cursor Scheme installation file.
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Normal select.cur
+Help select.cur
+Working in background.cur
+Busy.cur
+Precision Select.cur
+Text Select.cur
+handwrite.cur
+Unavaiable.cur
+Horizontal Resize.cur
+Vertical Resize.cur
+Diagonal resize 1.cur
+Diagonal resize 2.cur
+Move.cur
+Move Alternative.cur
+Link Select.cur
+
+
+
+[Scheme.Txt]
+"Install Cursors.txt"
+
+[Strings]
+CUR_DIR     = "Cursors\Aqua"
+SCHEME_NAME = "Aqua"
+alternate    = "Move Alternative.cur"
+busy    = "Busy.cur"
+dgn1    = "Diagonal resize 1.cur"
+dgn2    = "Diagonal resize 2.cur"
+horz    = "Horizontal Resize.cur"
+vert    = "Vertical Resize.cur"
+hand    = "handwrite.cur"
+help    = "Help select.cur"
+link    = "Link Select.cur"
+move    = "Move.cur"
+pointer    = "Normal select.cur"
+cross    = "Precision Select.cur"
+text    = "Text Select.cur"
+unavailiable    = "Unavaiable.cur"
+work    = "Working in background.cur"

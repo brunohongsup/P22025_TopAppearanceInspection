@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{CDDA6A0D-64E8-4C7C-AF03-DC29FDB4B110}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>P22025_TopEngBatteryAppearanceInspection</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>P22025_TopEngBatteryAppearanceInspection</ProjectName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;x64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)ExtCtrls\$(Configuration)\Inc;$(ProjectDir)sqlite3\$(PlatformShortName)\Include</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(ProjectDir)ExtCtrls\$(Configuration)\Lib;$(ProjectDir)sqlite3\$(PlatformShortName)\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ExtCtrls.lib;sqlite3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)ExtCtrls\$(Configuration)\Inc;$(ProjectDir)sqlite3\$(PlatformShortName)\Include</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)ExtCtrls\$(Configuration)\Lib;$(ProjectDir)sqlite3\$(PlatformShortName)\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ExtCtrls.lib;sqlite3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CCellTracker.h" />
+    <ClInclude Include="CellTrackerlSocketVer2013.h" />
+    <ClInclude Include="ChartDirectLibrary\ChartViewer.h" />
+    <ClInclude Include="CMelsecCommunicator.h" />
+    <ClInclude Include="CommonCls\PointAlgorithm.h" />
+    <ClInclude Include="CommonCls\RavidAssistDskim.h" />
+    <ClInclude Include="CommonCls\Util.h" />
+    <ClInclude Include="CommonCls\UtilAscii.h" />
+    <ClInclude Include="CommonCls\UtilCommFuncFile.h" />
+    <ClInclude Include="CommonCls\UtilCommon.h" />
+    <ClInclude Include="CommonCls\UtilPen.h" />
+    <ClInclude Include="CommonCls\UtilStringManager.h" />
+    <ClInclude Include="CommonCls\UtilTime.h" />
+    <ClInclude Include="CommonCls\VisionSvcFileCleaner.h" />
+    <ClInclude Include="CRavidPolygonEx.h" />
+    <ClInclude Include="CSaveData.h" />
+    <ClInclude Include="CSaveImage.h" />
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_1.h" />
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_2.h" />
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_3.h" />
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_CellIDBlock.h" />
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_Enum_Define.h" />
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_Header.h" />
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_Header_DataType.h" />
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_Header_PLC_CommRequest.h" />
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_Header_Switch_Bit_Group.h" />
+    <ClInclude Include="DefineProtocol\Protocol_Type_ASCII_Type_ID.h" />
+    <ClInclude Include="DefineProtocol\Protocol_Type_CellID.h" />
+    <ClInclude Include="DefineProtocol\Protocol_Type_LotID.h" />
+    <ClInclude Include="DefineStruct.h" />
+    <ClInclude Include="DeviceEuresysGrablinkFullTest.h" />
+    <ClInclude Include="DlgDataChart.h" />
+    <ClInclude Include="DlgViewDefectMap.h" />
+    <ClInclude Include="FormViewComm.h" />
+    <ClInclude Include="FormViewOptions.h" />
+    <ClInclude Include="ISaveInfo.h" />
+    <ClInclude Include="json_Generator.h" />
+    <ClInclude Include="MainPageTotalSheetData.h" />
+    <ClInclude Include="DlgViewHistory.h" />
+    <ClInclude Include="DlgEditROI.h" />
+    <ClInclude Include="DlgLineGaugeParameter.h" />
+    <ClInclude Include="DlgMeasurementParameter.h" />
+    <ClInclude Include="DocumentHistory.h" />
+    <ClInclude Include="EHBase.h" />
+    <ClInclude Include="EHDeviceRS232C_MVSol.h" />
+    <ClInclude Include="FormViewBotMenu.h" />
+    <ClInclude Include="FormViewCameraControl.h" />
+    <ClInclude Include="FormViewRegister.h" />
+    <ClInclude Include="FormViewTopMenu.h" />
+    <ClInclude Include="ImageViewHistory.h" />
+    <ClInclude Include="ImageViewTeaching.h" />
+    <ClInclude Include="MVSolTrigger.h" />
+    <ClInclude Include="PictureEx.h" />
+    <ClInclude Include="ProfileCode\Profile.h" />
+    <ClInclude Include="ProfileCode\Utils.h" />
+    <ClInclude Include="ProfileCode\XIni.h" />
+    <ClInclude Include="RegisterPageImageStatistic.h" />
+    <ClInclude Include="RegisterPageMarkROI.h" />
+    <ClInclude Include="RegisterPageMeasure.h" />
+    <ClInclude Include="ImageCameraView.h" />
+    <ClInclude Include="ImageViewMain.h" />
+    <ClInclude Include="Definition.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgBase.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevBase.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevBlobSingle.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevCircleGauge.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevFilters.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevFind.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevImage.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevInitializer.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevLineGauge.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevMatch.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevMatrixCode.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevOCR.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevPointGauge.h" />
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevRectangleGauge.h" />
+    <ClInclude Include="eVision\VCommonCls\VisionObject.h" />
+    <ClInclude Include="eVision\VDefinitionCls\Definition.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDef3DModeling.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefBase.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefBaseEnum.h" />
+    <ClInclude Include="eVision\VDefinitionCls\vfxdefcolor.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefCommunications.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefEtc.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefFrameworkMessage.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefGeometry.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefImage.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefInspection.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefMainframeMessage.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefMathConst.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefMinMax.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefOEV.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefParamBase.h" />
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefPlatform.h" />
+    <ClInclude Include="Inspection.h" />
+    <ClInclude Include="P22025_TopEngBatteryAppearanceInspection.h" />
+    <ClInclude Include="EventHandlerCamera.h" />
+    <ClInclude Include="EventHandlerMain.h" />
+    <ClInclude Include="FormViewMain.h" />
+    <ClInclude Include="SaveNGInfo.h" />
+    <ClInclude Include="SequenceMain.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="sqlite3\x64\Include\sqlite3.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TabCtrlCustom.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UI\CtrlButtonST.h" />
+    <ClInclude Include="UI\CtrlGradientButton.h" />
+    <ClInclude Include="UI\CtrlLabel.h" />
+    <ClInclude Include="UI\OScopeCtrl.h" />
+    <ClInclude Include="VTECSLoad\DefineDllFunctionPoint.h" />
+    <ClInclude Include="VTECSLoad\LoadVTECSDll.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCellTracker.cpp" />
+    <ClCompile Include="CellTrackerlSocketVer2013.cpp" />
+    <ClCompile Include="ChartDirectLibrary\ChartViewer.cpp" />
+    <ClCompile Include="CMelsecCommunicator.cpp" />
+    <ClCompile Include="CommonCls\PointAlgorithm.cpp" />
+    <ClCompile Include="CommonCls\RavidAssistDskim.cpp" />
+    <ClCompile Include="CommonCls\Util.cpp" />
+    <ClCompile Include="CommonCls\UtilAscii.cpp" />
+    <ClCompile Include="CommonCls\UtilCommFuncFile.cpp" />
+    <ClCompile Include="CommonCls\UtilCommon.cpp" />
+    <ClCompile Include="CommonCls\UtilPen.cpp" />
+    <ClCompile Include="CommonCls\UtilStringManager.cpp" />
+    <ClCompile Include="CommonCls\UtilTime.cpp" />
+    <ClCompile Include="CommonCls\VisionSvcFileCleaner.cpp" />
+    <ClCompile Include="CRavidPolygonEx.cpp" />
+    <ClCompile Include="CSaveData.cpp" />
+    <ClCompile Include="CSaveImage.cpp" />
+    <ClCompile Include="DeviceEuresysGrablinkFullTest.cpp" />
+    <ClCompile Include="DlgDataChart.cpp" />
+    <ClCompile Include="DlgHistoryChart.cpp" />
+    <ClCompile Include="DlgViewDefectMap.cpp" />
+    <ClCompile Include="FormViewComm.cpp" />
+    <ClCompile Include="FormViewOptions.cpp" />
+    <ClCompile Include="ISaveInfo.cpp" />
+    <ClCompile Include="Jons_Generator.cpp" />
+    <ClCompile Include="MainPageTotalSheetData.cpp" />
+    <ClCompile Include="DlgViewHistory.cpp" />
+    <ClCompile Include="DlgEditROI.cpp" />
+    <ClCompile Include="DlgLineGaugeParameter.cpp" />
+    <ClCompile Include="DlgMeasurementParameter.cpp" />
+    <ClCompile Include="DocumentHistory.cpp" />
+    <ClCompile Include="EHBase.cpp" />
+    <ClCompile Include="EHDeviceRS232C_MVSol.cpp" />
+    <ClCompile Include="FormViewBotMenu.cpp" />
+    <ClCompile Include="FormViewCameraControl.cpp" />
+    <ClCompile Include="FormViewRegister.cpp" />
+    <ClCompile Include="FormViewTopMenu.cpp" />
+    <ClCompile Include="ImageViewHistory.cpp" />
+    <ClCompile Include="ImageViewTeaching.cpp" />
+    <ClCompile Include="MVSolTrigger.cpp" />
+    <ClCompile Include="ProfileCode\Profile.cpp" />
+    <ClCompile Include="ProfileCode\Utils.cpp" />
+    <ClCompile Include="ProfileCode\XIni.cpp" />
+    <ClCompile Include="RegisterPageImageStatistic.cpp" />
+    <ClCompile Include="RegisterPageMarkROI.cpp" />
+    <ClCompile Include="RegisterPageMeasure.cpp" />
+    <ClCompile Include="ImageCameraView.cpp" />
+    <ClCompile Include="ImageViewMain.cpp" />
+    <ClCompile Include="Definition.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgBase.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevBase.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevBlobSingle.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevCircleGauge.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevFilters.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevFind.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevImage.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevInitializer.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevLineGauge.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevMatch.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevMatrixCode.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevOCR.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevPointGauge.cpp" />
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevRectangleGauge.cpp" />
+    <ClCompile Include="eVision\VDefinitionCls\VDefinitionCls.cpp" />
+    <ClCompile Include="eVision\VDefinitionCls\VfxDefImage.cpp" />
+    <ClCompile Include="Inspection.cpp" />
+    <ClCompile Include="P22025_TopEngBatteryAppearanceInspection.cpp" />
+    <ClCompile Include="EventHandlerCamera.cpp" />
+    <ClCompile Include="EventHandlerMain.cpp" />
+    <ClCompile Include="FormViewMain.cpp" />
+    <ClCompile Include="SaveNGInfo.cpp" />
+    <ClCompile Include="SequenceMain.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TabCtrlCustom.cpp" />
+    <ClCompile Include="UI\CtrlButtonST.cpp" />
+    <ClCompile Include="UI\CtrlGradientButton.cpp" />
+    <ClCompile Include="UI\CtrlLabel.cpp" />
+    <ClCompile Include="UI\OScopeCtrl.cpp" />
+    <ClCompile Include="VTECSLoad\LoadVTECSDll.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="P22025_TopEngBatteryAppearanceInspection.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MultiCam.dll" />
+    <None Include="res\comix black\comixcursorsblackbyteft\cursor1.cur" />
+    <None Include="res\Comix Black\ComixCursorsBlackbyteft\horizontal.cur" />
+    <None Include="res\Comix Black\ComixCursorsBlackbyteft\move.cur" />
+    <None Include="res\Comix Black\ComixCursorsBlackbyteft\precision.cur" />
+    <None Include="res\Comix Black\ComixCursorsBlackbyteft\vertical.cur" />
+    <None Include="res\Comix Black\ComixCursorsWhitebyteft\precision.cur" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\P22025_TopEngBatteryAppearanceInspection.rc2" />
+    <None Include="res\Shadow\aero_move.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AppearanceInspection-removebg.png" />
+    <Image Include="res\aqua_ball_gray_icon_30.png" />
+    <Image Include="res\aqua_ball_Green_icon_30.png" />
+    <Image Include="res\aqua_ball_red_icon_30.png" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bitmap_l.bmp" />
+    <Image Include="res\Camera.bmp" />
+    <Image Include="res\camera.ico" />
+    <Image Include="res\chart.ico" />
+    <Image Include="res\comm.ico" />
+    <Image Include="res\Comm3.bmp" />
+    <Image Include="res\green_icon.bmp" />
+    <Image Include="res\history.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\LEDOff.bmp" />
+    <Image Include="res\LEDOn.bmp" />
+    <Image Include="res\LED_GRAY.bmp" />
+    <Image Include="res\LED_GREEN.bmp" />
+    <Image Include="res\LGES-removebg-preview.png" />
+    <Image Include="res\lg_logo.ico" />
+    <Image Include="res\Model.bmp" />
+    <Image Include="res\model.ico" />
+    <Image Include="res\options.ico" />
+    <Image Include="res\P22025_TopEngBatteryAppearanceInspection.ico" />
+    <Image Include="res\Progress.gif" />
+    <Image Include="res\PROGRESS_1.gif" />
+    <Image Include="res\PROGRESS_2.gif" />
+    <Image Include="res\PROGRESS_4.gif" />
+    <Image Include="res\RavidMainFrame.ico" />
+    <Image Include="res\register.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

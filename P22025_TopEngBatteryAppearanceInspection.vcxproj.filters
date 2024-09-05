@@ -1,0 +1,820 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\EventHandler">
+      <UniqueIdentifier>{5d3d4c48-9991-4336-9774-58ed1582a6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sequence">
+      <UniqueIdentifier>{3ee32bb6-8e2b-4385-97f2-be1da5b12315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FormView">
+      <UniqueIdentifier>{d0fbd6a2-2175-4659-abb5-c8b3fa0eff72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ImageView">
+      <UniqueIdentifier>{cd476030-04ca-4f79-b559-7297f04bd99a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ETC">
+      <UniqueIdentifier>{76d841e5-ceec-438c-b752-ea88ca5322e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\EventHandler">
+      <UniqueIdentifier>{149689f9-9b32-401e-9fc1-bdce18d9e221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Sequence">
+      <UniqueIdentifier>{8ac3eef3-9934-4c70-8a47-03a8376d2135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\FormView">
+      <UniqueIdentifier>{bb22f5f2-03b8-43e9-adfa-a90b8ea65966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ImageView">
+      <UniqueIdentifier>{1c36475c-9701-4a57-8576-c9ba174ed932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Definition">
+      <UniqueIdentifier>{a9c92cf0-5e03-447f-aa54-3ff4f6b53b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ETC">
+      <UniqueIdentifier>{0a6c4487-49f4-4919-815d-e9b2856666b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Main">
+      <UniqueIdentifier>{9cc59778-5917-410c-aa87-7c435987b77b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Main">
+      <UniqueIdentifier>{5c59d751-9209-4f99-8ede-f8ca787d3366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\VAlgorithmCls">
+      <UniqueIdentifier>{c62ff5a3-1bbc-490f-ba80-076022fe741b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\VDefinitionCls">
+      <UniqueIdentifier>{fa9fbd33-9e2a-4312-8115-9e6d31db5b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\VAlgorithmCls">
+      <UniqueIdentifier>{ab3bfc10-7e08-4baf-a2e5-4271f954863f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\VDefinitionCls">
+      <UniqueIdentifier>{6c3a9569-e7cb-40e5-ae37-bd4529d51b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\VCommonCls">
+      <UniqueIdentifier>{ab097f1b-a0c8-40ba-9fdf-98b195f1dbd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Definition">
+      <UniqueIdentifier>{7bd00364-f4d5-4f63-ac14-e076b86e9fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FormView\FormViewRegister_Tab">
+      <UniqueIdentifier>{850e0cd8-5024-47ec-9d03-3b581645d8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\FormView\FormViewRegister_Tab">
+      <UniqueIdentifier>{540b4a7f-8500-48ae-8437-83509bfbd232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FormView\Dialog">
+      <UniqueIdentifier>{80872348-e1a7-4f33-8aee-b119f7e37223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\FormView\Dialog">
+      <UniqueIdentifier>{0788f334-cbff-40ea-affe-ce9a824b4a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FormView\FormViewMain_Tab">
+      <UniqueIdentifier>{f5e32f4e-44cc-4dd1-98b3-0fbaf58f7516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\FormView\FormViewMain_Tab">
+      <UniqueIdentifier>{18c429a7-0bb5-443b-8975-ad1975a57096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DefineProtocol">
+      <UniqueIdentifier>{a1c13de6-9eff-4348-a3ab-b214446fff40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\VTECSLoad">
+      <UniqueIdentifier>{0213f349-96f6-46dc-85be-2522f857c431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Json">
+      <UniqueIdentifier>{0e935170-b46e-42f3-813a-81d2b87204c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Json">
+      <UniqueIdentifier>{bee5b6d3-f05a-41ab-9b0e-5f7dd9d72dcd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Definition.h">
+      <Filter>헤더 파일\Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="P22025_TopEngBatteryAppearanceInspection.h">
+      <Filter>헤더 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgBase.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevBase.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevBlobSingle.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevCircleGauge.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevFilters.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevFind.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevImage.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevInitializer.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevLineGauge.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevMatch.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevMatrixCode.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevOCR.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevPointGauge.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VAlgorithmCls\AlgOevRectangleGauge.h">
+      <Filter>헤더 파일\VAlgorithmCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\Definition.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDef3DModeling.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefBase.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefBaseEnum.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\vfxdefcolor.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefCommunications.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefEtc.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefFrameworkMessage.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefGeometry.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefImage.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefInspection.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefMainframeMessage.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefMathConst.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefMinMax.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefOEV.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefParamBase.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VDefinitionCls\VfxDefPlatform.h">
+      <Filter>헤더 파일\VDefinitionCls</Filter>
+    </ClInclude>
+    <ClInclude Include="eVision\VCommonCls\VisionObject.h">
+      <Filter>헤더 파일\VCommonCls</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonCls\PointAlgorithm.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonCls\RavidAssistDskim.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonCls\Util.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonCls\UtilAscii.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonCls\UtilCommFuncFile.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonCls\UtilCommon.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonCls\UtilStringManager.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonCls\UtilTime.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CtrlButtonST.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CtrlGradientButton.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CtrlLabel.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandlerMain.h">
+      <Filter>헤더 파일\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandlerCamera.h">
+      <Filter>헤더 파일\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageViewMain.h">
+      <Filter>헤더 파일\ImageView</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceMain.h">
+      <Filter>헤더 파일\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="EHBase.h">
+      <Filter>헤더 파일\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageCameraView.h">
+      <Filter>헤더 파일\ImageView</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonCls\UtilPen.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonCls\VisionSvcFileCleaner.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="EHDeviceRS232C_MVSol.h">
+      <Filter>헤더 파일\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Inspection.h">
+      <Filter>헤더 파일\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewCameraControl.h">
+      <Filter>헤더 파일\FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterPageImageStatistic.h">
+      <Filter>헤더 파일\FormView\FormViewRegister_Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterPageMarkROI.h">
+      <Filter>헤더 파일\FormView\FormViewRegister_Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterPageMeasure.h">
+      <Filter>헤더 파일\FormView\FormViewRegister_Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일\Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfileCode\XIni.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfileCode\Utils.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfileCode\Profile.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLineGaugeParameter.h">
+      <Filter>헤더 파일\FormView\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageViewTeaching.h">
+      <Filter>헤더 파일\ImageView</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewTopMenu.h">
+      <Filter>헤더 파일\FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewBotMenu.h">
+      <Filter>헤더 파일\FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMeasurementParameter.h">
+      <Filter>헤더 파일\FormView\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DocumentHistory.h">
+      <Filter>헤더 파일\FormView\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageViewHistory.h">
+      <Filter>헤더 파일\FormView\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewRegister.h">
+      <Filter>헤더 파일\FormView\FormViewRegister_Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewMain.h">
+      <Filter>헤더 파일\FormView\FormViewMain_Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEditROI.h">
+      <Filter>헤더 파일\FormView\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TabCtrlCustom.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgViewHistory.h">
+      <Filter>헤더 파일\FormView\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPageTotalSheetData.h">
+      <Filter>헤더 파일\FormView\FormViewMain_Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartDirectLibrary\ChartViewer.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureEx.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewOptions.h">
+      <Filter>헤더 파일\FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewComm.h">
+      <Filter>헤더 파일\FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\OScopeCtrl.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDataChart.h">
+      <Filter>헤더 파일\FormView\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MVSolTrigger.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceEuresysGrablinkFullTest.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3\x64\Include\sqlite3.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CRavidPolygonEx.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgViewDefectMap.h">
+      <Filter>헤더 파일\FormView\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_1.h">
+      <Filter>소스 파일\DefineProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_2.h">
+      <Filter>소스 파일\DefineProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_3.h">
+      <Filter>소스 파일\DefineProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_CellIDBlock.h">
+      <Filter>소스 파일\DefineProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_Enum_Define.h">
+      <Filter>소스 파일\DefineProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_Header.h">
+      <Filter>소스 파일\DefineProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_Header_DataType.h">
+      <Filter>소스 파일\DefineProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_Header_PLC_CommRequest.h">
+      <Filter>소스 파일\DefineProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtocol\PLCProtocol_Type_Header_Switch_Bit_Group.h">
+      <Filter>소스 파일\DefineProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtocol\Protocol_Type_ASCII_Type_ID.h">
+      <Filter>소스 파일\DefineProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtocol\Protocol_Type_CellID.h">
+      <Filter>소스 파일\DefineProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineProtocol\Protocol_Type_LotID.h">
+      <Filter>소스 파일\DefineProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="VTECSLoad\DefineDllFunctionPoint.h">
+      <Filter>소스 파일\VTECSLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="VTECSLoad\LoadVTECSDll.h">
+      <Filter>소스 파일\VTECSLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineStruct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CellTrackerlSocketVer2013.h">
+      <Filter>소스 파일\VTECSLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="json_Generator.h">
+      <Filter>헤더 파일\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveNGInfo.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="ISaveInfo.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CSaveImage.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CSaveData.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CCellTracker.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMelsecCommunicator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="P22025_TopEngBatteryAppearanceInspection.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgBase.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevBase.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevBlobSingle.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevCircleGauge.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevFilters.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevFind.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevImage.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevInitializer.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevLineGauge.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevMatch.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevMatrixCode.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevOCR.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevPointGauge.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VAlgorithmCls\AlgOevRectangleGauge.cpp">
+      <Filter>소스 파일\VAlgorithmCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VDefinitionCls\VfxDefImage.cpp">
+      <Filter>소스 파일\VDefinitionCls</Filter>
+    </ClCompile>
+    <ClCompile Include="eVision\VDefinitionCls\VDefinitionCls.cpp">
+      <Filter>소스 파일\VDefinitionCls</Filter>
+    </ClCompile>
+    <ClCompile Include="Definition.cpp">
+      <Filter>소스 파일\Definition</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonCls\PointAlgorithm.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonCls\RavidAssistDskim.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonCls\Util.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonCls\UtilAscii.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonCls\UtilCommFuncFile.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonCls\UtilCommon.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonCls\UtilStringManager.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonCls\UtilTime.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CtrlButtonST.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CtrlGradientButton.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CtrlLabel.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandlerCamera.cpp">
+      <Filter>소스 파일\EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandlerMain.cpp">
+      <Filter>소스 파일\EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageViewMain.cpp">
+      <Filter>소스 파일\ImageView</Filter>
+    </ClCompile>
+    <ClCompile Include="EHBase.cpp">
+      <Filter>소스 파일\EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageCameraView.cpp">
+      <Filter>소스 파일\ImageView</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonCls\UtilPen.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonCls\VisionSvcFileCleaner.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="EHDeviceRS232C_MVSol.cpp">
+      <Filter>소스 파일\EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Inspection.cpp">
+      <Filter>소스 파일\EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewCameraControl.cpp">
+      <Filter>소스 파일\FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterPageImageStatistic.cpp">
+      <Filter>소스 파일\FormView\FormViewRegister_Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterPageMarkROI.cpp">
+      <Filter>소스 파일\FormView\FormViewRegister_Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterPageMeasure.cpp">
+      <Filter>소스 파일\FormView\FormViewRegister_Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileCode\Profile.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileCode\Utils.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileCode\XIni.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLineGaugeParameter.cpp">
+      <Filter>소스 파일\FormView\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageViewTeaching.cpp">
+      <Filter>소스 파일\ImageView</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewTopMenu.cpp">
+      <Filter>소스 파일\FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewBotMenu.cpp">
+      <Filter>소스 파일\FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMeasurementParameter.cpp">
+      <Filter>소스 파일\FormView\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DocumentHistory.cpp">
+      <Filter>소스 파일\FormView\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageViewHistory.cpp">
+      <Filter>소스 파일\FormView\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewRegister.cpp">
+      <Filter>소스 파일\FormView\FormViewRegister_Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewMain.cpp">
+      <Filter>소스 파일\FormView\FormViewMain_Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEditROI.cpp">
+      <Filter>소스 파일\FormView\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TabCtrlCustom.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgViewHistory.cpp">
+      <Filter>소스 파일\FormView\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPageTotalSheetData.cpp">
+      <Filter>소스 파일\FormView\FormViewMain_Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgHistoryChart.cpp">
+      <Filter>소스 파일\FormView\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartDirectLibrary\ChartViewer.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewOptions.cpp">
+      <Filter>소스 파일\FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewComm.cpp">
+      <Filter>소스 파일\FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\OScopeCtrl.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDataChart.cpp">
+      <Filter>소스 파일\FormView\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MVSolTrigger.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceEuresysGrablinkFullTest.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CRavidPolygonEx.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgViewDefectMap.cpp">
+      <Filter>소스 파일\FormView\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VTECSLoad\LoadVTECSDll.cpp">
+      <Filter>소스 파일\VTECSLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="CellTrackerlSocketVer2013.cpp">
+      <Filter>소스 파일\VTECSLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceMain.cpp">
+      <Filter>소스 파일\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Jons_Generator.cpp">
+      <Filter>소스 파일\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveNGInfo.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="ISaveInfo.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CSaveData.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CSaveImage.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CCellTracker.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMelsecCommunicator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="P22025_TopEngBatteryAppearanceInspection.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\P22025_TopEngBatteryAppearanceInspection.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Comix Black\ComixCursorsBlackbyteft\move.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Comix Black\ComixCursorsBlackbyteft\precision.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\comix black\comixcursorsblackbyteft\cursor1.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Comix Black\ComixCursorsWhitebyteft\precision.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Shadow\aero_move.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Comix Black\ComixCursorsBlackbyteft\horizontal.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Comix Black\ComixCursorsBlackbyteft\vertical.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="MultiCam.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\P22025_TopEngBatteryAppearanceInspection.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\RavidMainFrame.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\camera.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\model.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\options.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\lg_logo.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\LEDOn.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Camera.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Comm3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\LEDOff.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Model.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\chart.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\comm.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\history.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\register.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap_l.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\green_icon.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\LED_GRAY.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\LED_GREEN.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\aqua_ball_gray_icon_30.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\aqua_ball_red_icon_30.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\LGES-removebg-preview.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\aqua_ball_Green_icon_30.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Progress.gif">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\PROGRESS_1.gif">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\PROGRESS_4.gif">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\PROGRESS_2.gif">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\AppearanceInspection-removebg.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

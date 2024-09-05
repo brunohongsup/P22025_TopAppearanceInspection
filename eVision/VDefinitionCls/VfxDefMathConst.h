@@ -1,0 +1,25 @@
+#pragma once
+
+
+#ifdef PI
+	#undef PI
+#endif
+
+#define PI			3.14159265358979323846264338327950288419716939937510
+
+
+
+#ifdef RADIAN
+	#undef RADIAN
+#endif
+
+#define RADIAN		57.295779513082320876798154814105
+
+
+
+#ifdef EPSILON
+	#undef EPSILON
+#endif
+
+#define EPSILON		0.0000000001
+
